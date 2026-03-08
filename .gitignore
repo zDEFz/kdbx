@@ -1,0 +1,8 @@
+# 1. Ignore everything in the repository
+/*
+
+# 2. But do not ignore the .gitignore file itself (highly recommended)
+!/.gitignore
+
+# 3. Specifically allow the database file in the root
+!/DB.kdbx
